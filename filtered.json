@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Kit Vinhos do Porto - Burmester",
+        "price": 538.59,
+        "score": 4.4,
+        "url": "https://www.wine.com.br/oculta/kit-vinhos-do-porto-burmester/prodNKQ970.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Porto Burmester Ruby",
+                "Suave/Doce"
+            ],
+            [
+                "Porto Burmester Tawny",
+                "Suave/Doce"
+            ]
+        ]
+    },
+    {
+        "name": "Kit Refrescantes, Prepara\u00e7\u00e3o Primavera (3 garrafas)",
+        "price": 131.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/bundle/kit-refrescantes-preparacao-primavera-3-garrafas-/prodSUY404.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Piranha D.O.C. Vinho Verd...",
+                "Meio Seco/Demi-Sec"
+            ],
+            [
+                "Toro Loco D.O.P. Utiel-Re...",
+                "Seco"
+            ],
+            [
+                "Espumante Dancing Flame M...",
+                "Suave/Doce"
+            ]
+        ]
+    },
+    {
+        "name": "Kit Espumantes Wine (3 garrafas)",
+        "price": 133.9,
+        "score": 4.3,
+        "url": "https://www.wine.com.br/bundle/kit-espumantes-wine-3-garrafas-/prodKFB223.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Castillo Santa Barbara Brut",
+                "Brut"
+            ],
+            [
+                "Espumante Dancing Flame M...",
+                "Suave/Doce"
+            ],
+            [
+                "Espumante Marie-Louise Pa...",
+                "Meio Seco/Demi-Sec"
+            ]
+        ]
+    },
+    {
+        "name": "Kit Refrescantes Imperd\u00edveis Wine (4 garrafas)",
+        "price": 154.9,
+        "score": 4.0,
+        "url": "https://www.wine.com.br/bundle/kit-refrescantes-imperdiveis-wine-4-garrafas-/prodAAF334.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Carlo Rossi White Zinfandel",
+                "Suave/Doce"
+            ],
+            [
+                "V9 Reserva Chardonnay 2021",
+                "Seco"
+            ],
+            [
+                "JP Azeit\u00e3o Sele\u00e7\u00e3o do En\u00f3...",
+                "Meio Seco/Demi-Sec"
+            ],
+            [
+                "Castillo Santa Barbara Brut",
+                "Brut"
+            ]
+        ]
+    }
+]
