@@ -1,45 +1,63 @@
 [
     {
-        "name": "Kit Vinhos do Porto - Burmester",
-        "price": 538.59,
-        "score": 4.4,
-        "url": "https://www.wine.com.br/oculta/kit-vinhos-do-porto-burmester/prodNKQ970.html",
-        "country": null,
-        "type": "kit",
-        "bundle": true,
-        "name_type_tuple_list": [
-            [
-                "Porto Burmester Ruby",
-                "Suave/Doce"
-            ],
-            [
-                "Porto Burmester Tawny",
-                "Suave/Doce"
-            ]
-        ]
+        "name": "Porto Burmester Tordiz 40 Years Old Tawny",
+        "price": 1270.9,
+        "score": 5.0,
+        "url": "https://www.wine.com.br/vinhos/porto-burmester-tordiz-40-years-old-tawny/prod14722.html",
+        "country": "Portugal",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
     },
     {
-        "name": "Kit Refrescantes, Prepara\u00e7\u00e3o Primavera (3 garrafas)",
-        "price": 131.9,
+        "name": "Veuve Clicquot Rich 750 Ml",
+        "price": 572.82,
+        "score": 0.0,
+        "url": "https://www.wine.com.br/vinhos/veuve-clicquot-rich-750-ml/prod17235.html",
+        "country": "Fran\u00e7a",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Pinhal da Torre Late Harvest Tardio 2010 500 ml",
+        "price": 139.9,
         "score": 4.5,
-        "url": "https://www.wine.com.br/bundle/kit-refrescantes-preparacao-primavera-3-garrafas-/prodSUY404.html",
-        "country": null,
-        "type": "kit",
-        "bundle": true,
-        "name_type_tuple_list": [
-            [
-                "Piranha D.O.C. Vinho Verd...",
-                "Meio Seco/Demi-Sec"
-            ],
-            [
-                "Toro Loco D.O.P. Utiel-Re...",
-                "Seco"
-            ],
-            [
-                "Espumante Dancing Flame M...",
-                "Suave/Doce"
-            ]
-        ]
+        "url": "https://www.wine.com.br/vinhos/pinhal-da-torre-late-harvest-tardio-2010-500-ml/prod21088.html",
+        "country": "Portugal",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Frisante Villa Feudale Lambrusco I.G.P. Emilia Rosso Amabile",
+        "price": 35.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/vinhos/frisante-villa-feudale-lambrusco-i-g-p-emilia-rosso-amabile/prod18480.html",
+        "country": "It\u00e1lia",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Frisante Ballade Ros\u00e9 2021",
+        "price": 29.9,
+        "score": 4.7,
+        "url": "https://www.wine.com.br/vinhos/frisante-ballade-rose-2021/prod26222.html",
+        "country": "Brasil",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Espumante Dancing Flame Moscatel",
+        "price": 49.9,
+        "score": 4.6,
+        "url": "https://www.wine.com.br/vinhos/espumante-dancing-flame-moscatel/prod26288.html",
+        "country": "Chile",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
     },
     {
         "name": "Kit Espumantes Wine (3 garrafas)",
@@ -65,6 +83,26 @@
         ]
     },
     {
+        "name": "Bip Benjamin Marsala Superiore Riserva Oro Dolce Doc 2013",
+        "price": 254.9,
+        "score": 4.0,
+        "url": "https://www.wine.com.br/vinhos/bip-benjamin-marsala-superiore-riserva-oro-dolce-doc-2013/prod23578.html",
+        "country": "It\u00e1lia",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Uncle Joseph Marsala Superiore Rubino Dolce Doc 2015",
+        "price": 254.9,
+        "score": 4.7,
+        "url": "https://www.wine.com.br/vinhos/uncle-joseph-marsala-superiore-rubino-dolce-doc-2015/prod23583.html",
+        "country": "It\u00e1lia",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
         "name": "Kit Refrescantes Imperd\u00edveis Wine (4 garrafas)",
         "price": 154.9,
         "score": 4.0,
@@ -88,6 +126,218 @@
             [
                 "Castillo Santa Barbara Brut",
                 "Brut"
+            ]
+        ]
+    },
+    {
+        "name": "Cantine Pellegrino D.O.C. Pantelleria Passito Liquoroso 2019 500 mL",
+        "price": 142.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/vinhos/cantine-pellegrino-d-o-c-pantelleria-passito-liquoroso-2019-500-ml/prod25734.html",
+        "country": "It\u00e1lia",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Cantine Pellegrino D.O.C. Pantelleria Passito Liquoroso 2019 500 mL",
+        "price": 142.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/vinhos/cantine-pellegrino-d-o-c-pantelleria-passito-liquoroso-2019-500-ml/prod25734.html",
+        "country": "It\u00e1lia",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Porta Soprana Lambrusco I.G.P. Emilia Rosso Amabile",
+        "price": 31.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/vinhos/porta-soprana-lambrusco-i-g-p-emilia-rosso-amabile/prod6943.html",
+        "country": "It\u00e1lia",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Carlo Rossi White Zinfandel",
+        "price": 43.9,
+        "score": 4.3,
+        "url": "https://www.wine.com.br/vinhos/carlo-rossi-white-zinfandel/prod24849.html",
+        "country": "Estados Unidos",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Porto Burmester Extra Dry White",
+        "price": 90.9,
+        "score": 3.6,
+        "url": "https://www.wine.com.br/vinhos/porto-burmester-extra-dry-white/prod14712.html",
+        "country": "Portugal",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Porto Burmester Ruby",
+        "price": 90.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/vinhos/porto-burmester-ruby/prod14710.html",
+        "country": "Portugal",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Porto Burmester 10 years Old Tawny 375 ml",
+        "price": 119.9,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/vinhos/porto-burmester-10-years-old-tawny-375-ml/prod14713.html",
+        "country": "Portugal",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Porto Burmester Tawny",
+        "price": 76.9,
+        "score": 4.3,
+        "url": "https://www.wine.com.br/vinhos/porto-burmester-tawny/prod14711.html",
+        "country": "Portugal",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Castillo Santa Barbara Moscato",
+        "price": 47.9,
+        "score": 4.7,
+        "url": "https://www.wine.com.br/vinhos/castillo-santa-barbara-moscato/prod24876.html",
+        "country": "Espanha",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Frisante Ballade Moscatel Branco Suave 2021",
+        "price": 29.9,
+        "score": 4.8,
+        "url": "https://www.wine.com.br/vinhos/frisante-ballade-moscatel-branco-suave-2021/prod26804.html",
+        "country": "Brasil",
+        "type": "Suave/Doce",
+        "bundle": false,
+        "name_type_tuple_list": []
+    },
+    {
+        "name": "Kit Mix Brasil & Espanha (4 garrafas)",
+        "price": 122.9,
+        "score": 4.3,
+        "url": "https://www.wine.com.br/bundle/kit-mix-brasil-espanha-4-garrafas-/prodPQT242.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Citadel Tempranillo Tinto",
+                "Seco"
+            ],
+            [
+                "Ballade Cabernet Sauvigno...",
+                "Seco"
+            ],
+            [
+                "Mosen Pierre Blanco",
+                "Seco"
+            ],
+            [
+                "Frisante Ballade Moscatel...",
+                "Suave/Doce"
+            ]
+        ]
+    },
+    {
+        "name": "Kit Refrescantes, Prepara\u00e7\u00e3o Primavera (3 garrafas)",
+        "price": 138.7,
+        "score": 4.5,
+        "url": "https://www.wine.com.br/bundle/kit-refrescantes-preparacao-primavera-3-garrafas-/prodSUY404.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Piranha D.O.C. Vinho Verd...",
+                "Meio Seco/Demi-Sec"
+            ],
+            [
+                "Toro Loco D.O.P. Utiel-Re...",
+                "Seco"
+            ],
+            [
+                "Espumante Dancing Flame M...",
+                "Suave/Doce"
+            ]
+        ]
+    },
+    {
+        "name": "Kit Frisantes Espetaculares (4 garrafas)",
+        "price": 154.6,
+        "score": 4.4,
+        "url": "https://www.wine.com.br/bundle/kit-frisantes-espetaculares-4-garrafas-/prodCNI396.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Frisante Pedro Teixeira T...",
+                "Meio Seco/Demi-Sec"
+            ],
+            [
+                "Frisante Pedro Teixeira B...",
+                "Meio Seco/Demi-Sec"
+            ],
+            [
+                "Frisante Porta Soprana La...",
+                "Suave/Doce"
+            ],
+            [
+                "Frisante Pedro Teixeira Ros\u00e9",
+                "Meio Seco/Demi-Sec"
+            ]
+        ]
+    },
+    {
+        "name": "Kit Ballade (6 garrafas)",
+        "price": 194.4,
+        "score": 4.1,
+        "url": "https://www.wine.com.br/bundle/kit-ballade-6-garrafas-/prodVKT931.html",
+        "country": null,
+        "type": "kit",
+        "bundle": true,
+        "name_type_tuple_list": [
+            [
+                "Ballade Riesling 2020",
+                "Seco"
+            ],
+            [
+                "Ballade Cabernet Sauvigno...",
+                "Seco"
+            ],
+            [
+                "Frisante Ballade Moscatel...",
+                "Suave/Doce"
+            ],
+            [
+                "Ballade Cabernet Sauvigno...",
+                "Seco"
+            ],
+            [
+                "Ballade Merlot 2021",
+                "Seco"
+            ],
+            [
+                "Frisante Ballade Ros\u00e9 2021",
+                "Suave/Doce"
             ]
         ]
     }

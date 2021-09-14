@@ -33,13 +33,18 @@ class Wine():
                 print('Vinho :', element[0])
                 print('Classificação:', element[1])
                 print(' ')
+        else:
+            print('Classificaçao: ',self.type)
 
 
 
 def check_invalid_page(page_soup):
-    url_error = page_soup.find('h2',{'class':'Title-title'}).getText().rstrip()
-    if url_error == 'erro 400':
-        return True
+    try:
+        url_error = page_soup.find('h2',{'class':'Title-title'}).getText().rstrip()
+        if url_error == 'erro 400':
+            return True
+    except Exception as ex:
+        return False
 
 
 def check_bundle(soup):
@@ -47,7 +52,7 @@ def check_bundle(soup):
         find('h1').get_text()
     return 'Kit' in name
 
-def get_wine_url_list(page_number,out_of_page):
+def get_wine_url_list(page_number):
     url = "https://www.wine.com.br/vinhos/cVINHOS-p{}.html".format(page_number)
     url_request = requests.get(url)
     soup = BeautifulSoup(url_request.content, "html.parser")
@@ -56,7 +61,7 @@ def get_wine_url_list(page_number,out_of_page):
     for wine in wines:
         wine_url_list.append('https://www.wine.com.br'+ wine.find('a',{'class':'js-productClick'}).get('href'))
     out_of_page = check_invalid_page(soup)
-    return wine_url_list
+    return wine_url_list,  out_of_page
 
 def get_wine_name(soup):
     return (soup.find('div',{'class':'hidden-xs hidden-sm'})).\
@@ -87,7 +92,8 @@ def get_wine_type(soup):
         new_caption = caption.find('dt',{'class':'w-caption'})
         if new_caption.get_text() == 'Classificação':
             wine_type = caption.find('dd',{'class':'w-paragraph'}).get_text()
-        return wine_type
+            
+    return wine_type
 
 def get_bundle_details(soup):
     wine_names = soup.find_all('div',{'class':'ProductItem'})
@@ -166,37 +172,36 @@ def main():
     filtered_list = []
     wine_json_list = []
     filtered_json_list = []
-
+    error_json_list = []
 
     while not out_of_page:
-        url_list, page_count = get_wine_url_list(page_count, out_of_page)
+        url_list, out_of_page = get_wine_url_list(page_count)
         for url in url_list:
             try:
                 wine = get_wine(url)
             except Exception as ex:
-                print (ex)
-                print(url)
                 wine = Wine(None,None,None, url,None, None, False)
+                error_json_list.append(wine.__dict__)
             wine_list.append(wine)
             wine_json_list.append(wine.__dict__)
             if check_desired_type('Suave/Doce', wine):
                 wine.print_wine
                 filtered_list.append(wine)
                 filtered_json_list.append(wine.__dict__)
-                print(filtered_json_list)
             print('-----')
             print('Page: ',page_count)
             print('Wines Done:',(len(wine_list)-1))
             print('Filtered_wines,',len(filtered_list))
         page_count += 1
-        if len(wine_list) >= 903:
-            out_of_page =True
-        
+
 
     with open('wine_json.json', 'w') as f:
         json.dump(wine_json_list, f, indent=4)
 
     with open('filtered.json', 'w') as f:
         json.dump(filtered_json_list, f,  indent=4)
+        
+    with open('error.json', 'w') as f:
+        json.dump(error_json_list, f,  indent=4)
 
 main()
